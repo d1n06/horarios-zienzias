@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(100,150,200);
+  font-family: Consolas;
+  margin: 0;
+}
+
+#content {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px 4px 8px 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}

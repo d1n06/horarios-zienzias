@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(100,150,200);
+  font-family: Consolas;
+  text-align: right;
+  width: 15em;
+}
+
+input[type=number] {
+  width: 3em;
+}
+
+p {
+  font-size: 10px;
+}

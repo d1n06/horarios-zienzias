@@ -1,0 +1,27 @@
+{
+	"manifest_version" : 2,
+	"name" : "Horarios Ciencias Unizar",
+	"version" : "1.0",
+
+	"description" : "Utilidades para el calendario de ciencias de Unizar",
+
+	"permissions" : ["storage"],
+
+	"icons" : {
+		"48" : "icons/horarios-48.png"
+	},
+
+	"content_scripts" : [
+		{
+			"matches" : ["http://155.210.84.118/publicacion/2223/horarios/tabla/titulacion?id=*"],
+			"js" : ["horarios.js"]
+		}
+	],
+
+	"browser_action": {
+		"default_icon": "icons/horarios-48.png",
+		"default_title": "Horarios Unizar",
+		"default_popup": "popup/popup.html"
+	}
+
+}
