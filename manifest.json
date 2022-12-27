@@ -1,15 +1,16 @@
 {
 	"manifest_version" : 2,
-	"name" : "Horarios Ciencias Unizar",
-	"version" : "1.0",
+	"name" : "Horarios Zienzias",
+	"version" : "1.0.1",
 
 	"description" : "Utilidades para el calendario de ciencias de Unizar",
 
 	"permissions" : ["storage"],
 
 	"icons" : {
-		"48" : "icons/horarios-48.png"
-	},
+		"48" : "icons/horarios-48.png",
+		"96" : "icons/horarios-96.png"
+ 	},
 
 	"content_scripts" : [
 		{
