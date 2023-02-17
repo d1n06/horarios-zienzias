@@ -22,7 +22,7 @@
 
 	"browser_action": {
 		"default_icon": "icons/horarios-48.png",
-		"default_title": "Horarios Unizar",
+		"default_title": "Horarios Zienzias",
 		"default_popup": "popup/popup.html"
 	}
 
