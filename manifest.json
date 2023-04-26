@@ -1,7 +1,7 @@
 {
 	"manifest_version" : 2,
 	"name" : "Horarios Zienzias",
-	"version" : "1.0.2",
+	"version" : "1.0.3",
 	"author" : "dino",
 
 	"description" : "Utilidades para el calendario de ciencias de Unizar",
