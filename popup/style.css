@@ -12,3 +12,7 @@ input[type=number] {
 p {
   font-size: 10px;
 }
+
+#buttons * {
+  vertical-align: middle;
+}
